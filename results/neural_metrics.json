@@ -1,0 +1,36 @@
+{
+  "seed": 42,
+  "gas_station": {
+    "training_observations": 63,
+    "validation_observations": 21,
+    "slope_seconds_per_departure": 92.72311265969802,
+    "gradient_descent_slope": 92.72311265969017,
+    "gradient_descent_learning_rate": 0.005,
+    "training_r2": 0.9843991440034787,
+    "validation_r2": 0.9828896924340035,
+    "validation_rmse_seconds": 74.9776989255633
+  },
+  "classification": {
+    "small_binary_training_accuracy": 1.0,
+    "circles_logistic_test_accuracy": 0.5066666666666667,
+    "circles_mlp_test_accuracy": 1.0,
+    "blobs_softmax_test_accuracy": 0.9666666666666667,
+    "circles_train": 350,
+    "circles_test": 150,
+    "mlp_hidden_units": 16,
+    "mlp_epochs": 5000
+  },
+  "rnn": {
+    "corpus": "Project demo corpus",
+    "characters": 3668,
+    "vocabulary": 47,
+    "training_characters": 2934,
+    "heldout_characters": 734,
+    "hidden_size": 48,
+    "sequence_length": 32,
+    "steps": 2000,
+    "training_nll": 1.6004435929126697,
+    "heldout_nll": 2.3722392549874947,
+    "uniform_nll": 3.8501476017100584
+  }
+}

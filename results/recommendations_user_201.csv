@@ -1,0 +1,11 @@
+movieId,predicted_rating,raw_score,title,genres
+541,5.0,5.042035361082803,Blade Runner (1982),Action|Sci-Fi|Thriller
+5902,5.0,5.034153027901785,Adaptation (2002),Comedy|Drama|Romance
+778,5.0,5.033365772805105,Trainspotting (1996),Comedy|Crime|Drama
+1212,4.94722231137552,4.94722231137552,"Third Man, The (1949)",Film-Noir|Mystery|Thriller
+56782,4.933687840974283,4.933687840974283,There Will Be Blood (2007),Drama|Western
+1262,4.9312054668345215,4.9312054668345215,"Great Escape, The (1963)",Action|Adventure|Drama|War
+1252,4.9033736534519745,4.9033736534519745,Chinatown (1974),Crime|Film-Noir|Mystery|Thriller
+912,4.902796749033404,4.902796749033404,Casablanca (1942),Drama|Romance
+318,4.886211498316829,4.886211498316829,"Shawshank Redemption, The (1994)",Crime|Drama
+1204,4.8641636568299536,4.8641636568299536,Lawrence of Arabia (1962),Adventure|Drama|War

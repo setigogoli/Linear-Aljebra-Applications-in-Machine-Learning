@@ -1,0 +1,23 @@
+{
+  "seed": 42,
+  "source_rows": 5000,
+  "deduplicated_rows": 4997,
+  "train": 2997,
+  "validation": 1000,
+  "test": 1000,
+  "split": "60/20/20 stratified random split after normalized-text deduplication",
+  "max_tokens": 100,
+  "embedding_dimensions": 32,
+  "lstm_hidden_size": 24,
+  "epochs": 8,
+  "batch_size": 64,
+  "learning_rate": 0.003,
+  "embedding_coverage_fraction": 0.305273138019495,
+  "selected_epoch": 7,
+  "majority_test_accuracy": 0.507,
+  "tfidf_test_accuracy": 0.874,
+  "tfidf_test_f1": 0.8692946058091287,
+  "lstm_test_accuracy": 0.655,
+  "lstm_test_f1": 0.6627565982404692,
+  "lstm_test_loss": 0.626690186768749
+}

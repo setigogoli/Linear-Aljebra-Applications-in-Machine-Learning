@@ -1,0 +1,22 @@
+{
+  "python": "3.12.14",
+  "seed": 42,
+  "packages": {
+    "numpy": "2.3.5",
+    "scipy": "1.17.0",
+    "pandas": "2.2.3",
+    "scikit-learn": "1.8.0",
+    "matplotlib": "3.10.8",
+    "threadpoolctl": "3.6.0"
+  },
+  "input_sha256": {
+    "data/raw/gas_station.csv": "ab415284f4979dad87b3dee37cc5355d197c3de2b2357c9a90c0ef9107f4bc2c",
+    "data/raw/movielens/links.csv": "97ad18e4e56a09363c65676b6cb3482ce3e2cea2372a24620c1599c843325f31",
+    "data/raw/movielens/movies.csv": "5a5f32dd9bb3797b8e728a1b98958789d2b13f294a69fdfbc5727f8a9611aa07",
+    "data/raw/movielens/ratings.csv": "aa289ca83157595d0df6aea1be6a4ded676ddc4385472e8313a8ed9805352646",
+    "data/raw/movielens/tags.csv": "92a9f8bb7916dceef6151209845788c3643f794dfa79d1feaec7121b5960399d",
+    "data/external/imdb_reviews.csv": "c6cf57812c53f1f0fa842e6b1e4e46cfdff0f79d1a967b4c4ac2e640e78e6ee1",
+    "data/external/simpsons_dataset.csv": "a94ebd1b5ff3e080d19ea6cba1ec6ec0d752d3994571b95c98945dced9ab181b",
+    "data/raw/demo_corpus.txt": "9d2c67b649810c0f5561fc4ea6be2af71f6cfe6b79e2973e4ab24077d2345938"
+  }
+}

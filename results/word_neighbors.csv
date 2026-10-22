@@ -1,0 +1,151 @@
+method,dimensions,query,rank,neighbor,cosine
+Count SVD (U),16,homer,1,bart,0.9716444970002938
+Count SVD (U),16,homer,2,mr,0.9707427393355729
+Count SVD (U),16,homer,3,abe,0.9667728734176619
+Count SVD (U),16,homer,4,mrs,0.9645351704395613
+Count SVD (U),16,homer,5,lisa,0.9592662333539415
+Count SVD (U),16,lisa,1,bart,0.9796485212967783
+Count SVD (U),16,lisa,2,homer,0.9592662333539415
+Count SVD (U),16,lisa,3,mrs,0.9559358385402367
+Count SVD (U),16,lisa,4,mr,0.9520389709907469
+Count SVD (U),16,lisa,5,abraham,0.9450622491085392
+Count SVD (U),16,bart,1,lisa,0.9796485212967783
+Count SVD (U),16,bart,2,homer,0.971644497000294
+Count SVD (U),16,bart,3,mrs,0.9323204944225004
+Count SVD (U),16,bart,4,mr,0.9283995143698116
+Count SVD (U),16,bart,5,abraham,0.922259066658004
+Count SVD (U),16,school,1,year,0.9359401386609547
+Count SVD (U),16,school,2,high,0.9336709182875673
+Count SVD (U),16,school,3,college,0.8997397427212318
+Count SVD (U),16,school,4,book,0.8943710138813916
+Count SVD (U),16,school,5,early,0.8942641554033863
+Count SVD (U),16,family,1,city,0.869645899629771
+Count SVD (U),16,family,2,product,0.8621192733608298
+Count SVD (U),16,family,3,itchy_scratchy,0.8282457426883231
+Count SVD (U),16,family,4,case,0.8256391165936203
+Count SVD (U),16,family,5,usual,0.818581964459548
+Count SVD (U),32,homer,1,mr,0.9023303279837784
+Count SVD (U),32,homer,2,mrs,0.9022875256355138
+Count SVD (U),32,homer,3,abe,0.8864936335309019
+Count SVD (U),32,homer,4,abraham,0.8784778365462207
+Count SVD (U),32,homer,5,marge,0.7359942028293145
+Count SVD (U),32,lisa,1,bart,0.9665267134263672
+Count SVD (U),32,lisa,2,maggie,0.790311932333464
+Count SVD (U),32,lisa,3,student,0.724820731877787
+Count SVD (U),32,lisa,4,immediately,0.6908254947169429
+Count SVD (U),32,lisa,5,garden,0.6801890950139912
+Count SVD (U),32,bart,1,lisa,0.9665267134263672
+Count SVD (U),32,bart,2,maggie,0.793266811936876
+Count SVD (U),32,bart,3,immediately,0.7163325938010169
+Count SVD (U),32,bart,4,sucks,0.7138072959751023
+Count SVD (U),32,bart,5,homework,0.6794081159540123
+Count SVD (U),32,school,1,students,0.8694053631944931
+Count SVD (U),32,school,2,springfield,0.866408428192328
+Count SVD (U),32,school,3,jebediah,0.8592733301153026
+Count SVD (U),32,school,4,bus,0.8569325034285814
+Count SVD (U),32,school,5,high,0.8398472412866784
+Count SVD (U),32,family,1,live,0.8055400267103439
+Count SVD (U),32,family,2,super_bowl,0.7965633949288491
+Count SVD (U),32,family,3,house,0.7903687937067703
+Count SVD (U),32,family,4,parents,0.7657199748021034
+Count SVD (U),32,family,5,future,0.7465591100635918
+Count SVD (U),64,homer,1,abe,0.7291746423497596
+Count SVD (U),64,homer,2,abraham,0.7069613357763859
+Count SVD (U),64,homer,3,mrs,0.699884220316474
+Count SVD (U),64,homer,4,mr,0.653973605401454
+Count SVD (U),64,homer,5,jay,0.4831110432596458
+Count SVD (U),64,lisa,1,bart,0.7420836187287205
+Count SVD (U),64,lisa,2,homework,0.5620562368105951
+Count SVD (U),64,lisa,3,maggie,0.5548972039001778
+Count SVD (U),64,lisa,4,student,0.548810305655236
+Count SVD (U),64,lisa,5,books,0.5255308758468236
+Count SVD (U),64,bart,1,lisa,0.7420836187287205
+Count SVD (U),64,bart,2,mrs_krabappel,0.5960585997911972
+Count SVD (U),64,bart,3,sucks,0.5942657704908851
+Count SVD (U),64,bart,4,homework,0.512841137627239
+Count SVD (U),64,bart,5,skeleton,0.4854424153710314
+Count SVD (U),64,school,1,high,0.7932709104074656
+Count SVD (U),64,school,2,elementary,0.7827999016863654
+Count SVD (U),64,school,3,bus,0.7786832386382927
+Count SVD (U),64,school,4,sunday,0.7368417582783691
+Count SVD (U),64,school,5,hours,0.7194391167325184
+Count SVD (U),64,family,1,friends,0.544706828449953
+Count SVD (U),64,family,2,join,0.527064079686145
+Count SVD (U),64,family,3,party,0.5131998563158322
+Count SVD (U),64,family,4,members,0.5122639787466204
+Count SVD (U),64,family,5,dinner,0.5028894733899238
+PPMI SVD (U sqrt(S)),16,homer,1,marge,0.9512223847579103
+PPMI SVD (U sqrt(S)),16,homer,2,sorry,0.9228108294024745
+PPMI SVD (U sqrt(S)),16,homer,3,say,0.8866648629220775
+PPMI SVD (U sqrt(S)),16,homer,4,moe,0.8699140039834493
+PPMI SVD (U sqrt(S)),16,homer,5,bart,0.8677432507656311
+PPMI SVD (U sqrt(S)),16,lisa,1,bart,0.9602293185986942
+PPMI SVD (U sqrt(S)),16,lisa,2,tell,0.9147823233464807
+PPMI SVD (U sqrt(S)),16,lisa,3,say,0.8826600445468513
+PPMI SVD (U sqrt(S)),16,lisa,4,know,0.8776635250141294
+PPMI SVD (U sqrt(S)),16,lisa,5,help,0.8666288019068579
+PPMI SVD (U sqrt(S)),16,bart,1,lisa,0.9602293185986942
+PPMI SVD (U sqrt(S)),16,bart,2,tell,0.9438326825366511
+PPMI SVD (U sqrt(S)),16,bart,3,say,0.9192086525836343
+PPMI SVD (U sqrt(S)),16,bart,4,didn't,0.897680513428716
+PPMI SVD (U sqrt(S)),16,bart,5,help,0.8961615312016808
+PPMI SVD (U sqrt(S)),16,school,1,class,0.8612870754598102
+PPMI SVD (U sqrt(S)),16,school,2,today,0.7989989878724693
+PPMI SVD (U sqrt(S)),16,school,3,government,0.7849066029824106
+PPMI SVD (U sqrt(S)),16,school,4,grade,0.7792064064280849
+PPMI SVD (U sqrt(S)),16,school,5,taking,0.7743398152913045
+PPMI SVD (U sqrt(S)),16,family,1,live,0.8314994297706032
+PPMI SVD (U sqrt(S)),16,family,2,life,0.812862870953691
+PPMI SVD (U sqrt(S)),16,family,3,love,0.8113428795861914
+PPMI SVD (U sqrt(S)),16,family,4,lives,0.7919994616880364
+PPMI SVD (U sqrt(S)),16,family,5,event,0.7826909081967148
+PPMI SVD (U sqrt(S)),32,homer,1,marge,0.8834080936717086
+PPMI SVD (U sqrt(S)),32,homer,2,bart,0.8251961130376972
+PPMI SVD (U sqrt(S)),32,homer,3,simpson,0.7840027799550328
+PPMI SVD (U sqrt(S)),32,homer,4,sorry,0.7805474871476585
+PPMI SVD (U sqrt(S)),32,homer,5,uh,0.7788981864650346
+PPMI SVD (U sqrt(S)),32,lisa,1,bart,0.8850680423945265
+PPMI SVD (U sqrt(S)),32,lisa,2,son,0.7873047729099583
+PPMI SVD (U sqrt(S)),32,lisa,3,dad,0.7639400790050199
+PPMI SVD (U sqrt(S)),32,lisa,4,mom,0.7542388892258906
+PPMI SVD (U sqrt(S)),32,lisa,5,did,0.7242792767547578
+PPMI SVD (U sqrt(S)),32,bart,1,lisa,0.8850680423945267
+PPMI SVD (U sqrt(S)),32,bart,2,did,0.8256340419839634
+PPMI SVD (U sqrt(S)),32,bart,3,homer,0.8251961130376974
+PPMI SVD (U sqrt(S)),32,bart,4,marge,0.8222295605822372
+PPMI SVD (U sqrt(S)),32,bart,5,boy,0.8014956067303929
+PPMI SVD (U sqrt(S)),32,school,1,grade,0.7287139275017946
+PPMI SVD (U sqrt(S)),32,school,2,today,0.7037003807665061
+PPMI SVD (U sqrt(S)),32,school,3,tomorrow,0.6803327206756149
+PPMI SVD (U sqrt(S)),32,school,4,student,0.6743191122093067
+PPMI SVD (U sqrt(S)),32,school,5,college,0.633199634849854
+PPMI SVD (U sqrt(S)),32,family,1,life,0.7360635046084145
+PPMI SVD (U sqrt(S)),32,family,2,place,0.7012560696258819
+PPMI SVD (U sqrt(S)),32,family,3,you'll,0.6939600440202536
+PPMI SVD (U sqrt(S)),32,family,4,great,0.6657447831227425
+PPMI SVD (U sqrt(S)),32,family,5,time,0.6654439827341743
+PPMI SVD (U sqrt(S)),64,homer,1,marge,0.8331657729972953
+PPMI SVD (U sqrt(S)),64,homer,2,bart,0.7506071724176551
+PPMI SVD (U sqrt(S)),64,homer,3,simpson,0.7123246516449838
+PPMI SVD (U sqrt(S)),64,homer,4,sorry,0.6764385062019562
+PPMI SVD (U sqrt(S)),64,homer,5,i'm,0.675105618024539
+PPMI SVD (U sqrt(S)),64,lisa,1,bart,0.7966493753871614
+PPMI SVD (U sqrt(S)),64,lisa,2,son,0.6977880889383781
+PPMI SVD (U sqrt(S)),64,lisa,3,mom,0.6721631401266355
+PPMI SVD (U sqrt(S)),64,lisa,4,know,0.6552835611069756
+PPMI SVD (U sqrt(S)),64,lisa,5,marge,0.6536924936714477
+PPMI SVD (U sqrt(S)),64,bart,1,lisa,0.7966493753871614
+PPMI SVD (U sqrt(S)),64,bart,2,homer,0.7506071724176551
+PPMI SVD (U sqrt(S)),64,bart,3,son,0.7361718883058301
+PPMI SVD (U sqrt(S)),64,bart,4,marge,0.7258412666560523
+PPMI SVD (U sqrt(S)),64,bart,5,boy,0.721153817422814
+PPMI SVD (U sqrt(S)),64,school,1,today,0.5820748777336584
+PPMI SVD (U sqrt(S)),64,school,2,tomorrow,0.5764889885935386
+PPMI SVD (U sqrt(S)),64,school,3,day,0.5596807396387403
+PPMI SVD (U sqrt(S)),64,school,4,bart,0.5506758882078869
+PPMI SVD (U sqrt(S)),64,school,5,student,0.5320457445125499
+PPMI SVD (U sqrt(S)),64,family,1,place,0.5871034782832273
+PPMI SVD (U sqrt(S)),64,family,2,life,0.5864699653610115
+PPMI SVD (U sqrt(S)),64,family,3,time,0.5544851140817104
+PPMI SVD (U sqrt(S)),64,family,4,day,0.5488426787982036
+PPMI SVD (U sqrt(S)),64,family,5,you'll,0.5211098766086828

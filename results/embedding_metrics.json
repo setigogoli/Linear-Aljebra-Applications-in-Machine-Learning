@@ -1,0 +1,238 @@
+{
+  "seed": 42,
+  "source_rows": 158314,
+  "unique_nonmissing_utterances": 121759,
+  "retained_sentences": 93206,
+  "vocabulary_size": 3000,
+  "context_window": 2,
+  "min_count": 10,
+  "detected_phrases": 81,
+  "cooccurrence_nonzeros": 545887,
+  "ppmi_nonzeros": 472076,
+  "dimensions": 64,
+  "preprocessing": "HTML removal, lowercase alphabetic tokens, English stop words, minimum 3 tokens, scored bigram merging; no lemmatization",
+  "analogy_evaluation": {
+    "total": 12,
+    "covered": 2,
+    "correct": 1,
+    "coverage": 0.16666666666666666,
+    "accuracy_covered": 0.5,
+    "predictions": [
+      {
+        "question": [
+          "paris",
+          "france",
+          "toronto",
+          "canada"
+        ],
+        "prediction": null,
+        "status": "out_of_vocabulary"
+      },
+      {
+        "question": [
+          "australia",
+          "dollar",
+          "japan",
+          "yen"
+        ],
+        "prediction": null,
+        "status": "out_of_vocabulary"
+      },
+      {
+        "question": [
+          "chicago",
+          "illinois",
+          "stockton",
+          "california"
+        ],
+        "prediction": null,
+        "status": "out_of_vocabulary"
+      },
+      {
+        "question": [
+          "brother",
+          "sister",
+          "father",
+          "mother"
+        ],
+        "prediction": "mother",
+        "status": "evaluated"
+      },
+      {
+        "question": [
+          "apparent",
+          "apparently",
+          "rapid",
+          "rapidly"
+        ],
+        "prediction": null,
+        "status": "out_of_vocabulary"
+      },
+      {
+        "question": [
+          "great",
+          "greater",
+          "tough",
+          "tougher"
+        ],
+        "prediction": null,
+        "status": "out_of_vocabulary"
+      },
+      {
+        "question": [
+          "easy",
+          "easiest",
+          "lucky",
+          "luckiest"
+        ],
+        "prediction": null,
+        "status": "out_of_vocabulary"
+      },
+      {
+        "question": [
+          "think",
+          "thinking",
+          "read",
+          "reading"
+        ],
+        "prediction": "written",
+        "status": "evaluated"
+      },
+      {
+        "question": [
+          "switzerland",
+          "swiss",
+          "turkey",
+          "turkish"
+        ],
+        "prediction": null,
+        "status": "out_of_vocabulary"
+      },
+      {
+        "question": [
+          "walking",
+          "walked",
+          "swimming",
+          "swam"
+        ],
+        "prediction": null,
+        "status": "out_of_vocabulary"
+      },
+      {
+        "question": [
+          "mouse",
+          "mice",
+          "dollar",
+          "dollars"
+        ],
+        "prediction": null,
+        "status": "out_of_vocabulary"
+      },
+      {
+        "question": [
+          "work",
+          "works",
+          "speak",
+          "speaks"
+        ],
+        "prediction": null,
+        "status": "out_of_vocabulary"
+      }
+    ]
+  },
+  "vector_queries": {
+    "least_similar_to_homer": [
+      [
+        "feed",
+        -0.22689099203769705
+      ],
+      [
+        "hockey",
+        -0.2035843474405868
+      ],
+      [
+        "imagination",
+        -0.18742453293174954
+      ],
+      [
+        "hitting",
+        -0.17777558415752465
+      ],
+      [
+        "beats",
+        -0.17045199826751845
+      ]
+    ],
+    "group_homer_bart": [
+      [
+        "marge",
+        0.8330351768655615
+      ],
+      [
+        "lisa",
+        0.7644051963801535
+      ],
+      [
+        "son",
+        0.7484636469942665
+      ],
+      [
+        "simpson",
+        0.7448737045002145
+      ],
+      [
+        "boy",
+        0.7447097322299081
+      ]
+    ],
+    "bart_minus_man_plus_woman": [
+      [
+        "pregnant",
+        0.5252349499085545
+      ],
+      [
+        "lamb",
+        0.5173579050685393
+      ],
+      [
+        "principal_skinner",
+        0.4928910799699968
+      ],
+      [
+        "daughter",
+        0.4827101790830354
+      ],
+      [
+        "girl",
+        0.4759168864392293
+      ],
+      [
+        "talk",
+        0.4728866674017955
+      ]
+    ],
+    "random_vector_neighbors": [
+      [
+        "sixteen",
+        0.4538280791296392
+      ],
+      [
+        "lives",
+        0.4114788616293156
+      ],
+      [
+        "dreams",
+        0.3567713265488032
+      ],
+      [
+        "al",
+        0.3529132952545919
+      ],
+      [
+        "seconds",
+        0.3396796721985761
+      ]
+    ]
+  },
+  "glove_status": "not_run_external_vectors_not_supplied"
+}
