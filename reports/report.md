@@ -230,19 +230,3 @@ LSTM gates. A single affine map of [x_t, h_(t-1)] supplies forget, input, output
 Factor gradients. With error e = r - r_hat, a user-factor step is p_u <- p_u + eta(e q_i - lambda p_u), and the item-factor step is q_i <- q_i + eta(e p_u_old - lambda q_i). Biases follow the same residual-minus-penalty rule. Copies of both factor vectors ensure that each update uses the same pre-update state.
 
 SVD and incomplete data. The truncated SVD gives a best rank-k Frobenius approximation to a fully observed matrix. The rating model instead optimizes a regularized loss over the observed index set Omega. It is nonconvex and is not guaranteed to reach that complete-matrix SVD solution. Filling missing ratings with zero changes the problem and introduces artificial low ratings.
-
-## References and credits
-
-Project team: Barda Soltani Moakhar and Setayesh Heydari. Course: Linear Algebra. Instructor: Maryam Ramezani. 
-
-F. Maxwell Harper and Joseph A. Konstan. 2015. The MovieLens Datasets: History and Context. ACM Transactions on Interactive Intelligent Systems 5(4), Article 19. https://doi.org/10.1145/2827872
-
-Jeffrey Pennington, Richard Socher, and Christopher D. Manning. 2014. GloVe: Global Vectors for Word Representation. EMNLP. https://nlp.stanford.edu/projects/glove/
-
-Tomas Mikolov, Kai Chen, Greg Corrado, and Jeffrey Dean. 2013. Efficient Estimation of Word Representations in Vector Space. https://arxiv.org/abs/1301.3781
-
-Andrew L. Maas and colleagues. 2011. Learning Word Vectors for Sentiment Analysis. ACL. Original dataset information: https://ai.stanford.edu/~amaas/data/sentiment/
-
-GroupLens. MovieLens latest-small dataset and usage conditions. https://grouplens.org/datasets/movielens/latest/ . The unchanged README accompanying the supplied September 2018 snapshot is included with the data.
-
-The Simpsons and IMDb CSVs are course-provided inputs. Their upstream versions were not documented in the archive. References to the original dataset projects do not establish an exact upstream match for these files. DATA_SOURCES.md records these limits and the local import procedure.
