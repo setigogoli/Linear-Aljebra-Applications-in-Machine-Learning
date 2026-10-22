@@ -4,10 +4,6 @@
 **Course:** Linear Algebra  
 **Instructor:** Maryam Ramezani
 
-## Project question
-
-How do matrix operations support prediction, language representation, and recommendation, and where do simple linear models stop being sufficient?
-
 ## Part 1: Learning with vectors and matrices
 
 Fit a zero-intercept least-squares model to gas-station departure times. Derive its solution, implement gradient descent, and compare the fitted parameters. Train binary and multiclass linear classifiers, then compare logistic regression with a ReLU network on concentric circles. Implement the forward and backward passes of a character RNN and inspect its generated samples.
