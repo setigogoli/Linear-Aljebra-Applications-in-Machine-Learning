@@ -233,7 +233,7 @@ SVD and incomplete data. The truncated SVD gives a best rank-k Frobenius approxi
 
 ## References and credits
 
-Project team: Barda Soltani Moakhar and Setayesh Heydari. Course: Linear Algebra. Instructor: Maryam Ramezani. The experiments develop the topics and datasets in Practical Assignment 2.
+Project team: Barda Soltani Moakhar and Setayesh Heydari. Course: Linear Algebra. Instructor: Maryam Ramezani. 
 
 F. Maxwell Harper and Joseph A. Konstan. 2015. The MovieLens Datasets: History and Context. ACM Transactions on Interactive Intelligent Systems 5(4), Article 19. https://doi.org/10.1145/2827872
 
