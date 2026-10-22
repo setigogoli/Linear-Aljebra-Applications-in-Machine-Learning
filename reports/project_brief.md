@@ -28,6 +28,3 @@ Train a regularized user-item factorization model on observed MovieLens ratings.
 
 Explain why missing ratings must not be treated as zeros and why fitting observed entries by SGD differs from applying an ordinary SVD to a fully observed matrix.
 
-## Deliverables
-
-The repository contains reusable Python modules, three notebooks, a technical report, figures, numerical results, data preparation instructions, and numerical correctness tests. All reported values must come from the executable experiments with a recorded random seed and input fingerprints.
